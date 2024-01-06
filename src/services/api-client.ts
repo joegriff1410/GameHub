@@ -1,5 +1,4 @@
 import axios, { AxiosRequestConfig } from 'axios';
-import { config } from 'dotenv';
 
 export interface FetchResponse<T> {
     count: number;
